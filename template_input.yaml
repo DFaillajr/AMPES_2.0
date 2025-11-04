@@ -8,7 +8,9 @@ layer_groups:
       base_speed:  0.0       # contour speed in mm/s
       power: 0.0             # power in mW
     interlayer_dwell:  0.0   # dwell time in s. only relevant if dwell is true
-    
+
+5_AXIS: "true"               # Used for adding laser angle for L-PBF
+chamber_height: 35           # chamber height used for determining laser angle
 interval: 1                  # interpolated points between all points from gcode
 layer_height: 0.0            # layer height in mm
 last_layer_height_change: 0  # last layer height change in mm
